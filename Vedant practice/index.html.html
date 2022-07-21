@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; background-image: url("1.jpg");}
+
+input[type=text] {
+ width: 50%;
+ align-content: center;;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+ border-radius: 25px;
+}
+
+button {
+ background-color: #AEB7B8;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 10%;
+ border-radius: 25px;
+}
+
+button:hover {
+ background-color: #0AA1F4;
+ opacity: 0.8;
+}
+
+img{
+  position: fixed;
+}
+
+.cancelbtn {
+ width: auto;
+ padding: 10px 18px;
+ background-color: #f44336;
+}
+
+.imgcontainer {
+ text-align: center;
+ margin: 24px 12px 12px 12px;
+}
+
+img.avatar {
+ width: 20%;
+ border-radius: 50%;
+}
+
+.container {
+ padding: 16px;
+ padding-top: 250px;
+}
+
+span.psw {
+ float: right;
+ padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+ span.psw {
+    display: block;
+    float: none;
+ }
+ .cancelbtn {
+    width: 100%;
+ }
+ m1 {
+    position: absolute;
+ }
+}
+</style>
+</head>
+<body>
+
+<form id="form_pred" class="contact100-form validate-form" method="post" action="/api">
+ <div class="imgcontainer">
+   <img src="https://media.giphy.com/media/5NPhdqmyRxn8I/giphy.gif" alt="Avatar" class="avatar" style="padding-left: 75px">
+   <marquee id="m1" scrollamount="10" direction="right" loop="true" width="30%">
+      <center>
+        <p>
+          <h1 style="color: white; padding-top: 125px; padding-left: px;"></h1>
+        </p>
+      </center>
+    </marquee>
+ </div>
+
+ <div class="container">
+  <center>
+    <input type="text" placeholder="Search..." name="title" required>
+    <button type="submit">Search</button>
+  </center>
+ </div>
+ <br><br>
+ <center>
+    <h4 style="color: white;"><b><i>Note: This Web Page is made as a part of our SGP Project.</i></b></h4>
+    <a href="###" style="color: white;"><i><u>About us</u></i></a>
+ </center>
+</form>
+
+</body>
+</html>

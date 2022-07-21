@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://www.graphicsprings.com/filestorage/stencils/398af33ebbf9ac1c6daa0093ade9b28e.png?width=500&height=500" width="50" height="50" class="d-inline-block align-top" alt="">
+    Nature
+  </a>
+  <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <div class="dropdown">
+  <button class="btn btn- dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" >
+    About
+  </button>
+  <div class="dropdown-menu" >
+    <button class="dropdown-item" type="button">Founder</button>
+    <button class="dropdown-item" type="button">Address</button>
+    <button class="dropdown-item" type="button">Extra</button>
+  </div>
+</div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Community</a>
+  </li>
+</ul>
+</nav>
+
+<!--- Image Slider -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://www.google.co.in/" target="_blank"><img class="d-block w-100" src="https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" alt="First slide" ></a>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://images.ctfassets.net/hrltx12pl8hq/6TOyJZTDnuutGpSMYcFlfZ/4dfab047c1d94bbefb0f9325c54e08a2/01-nature_668593321.jpg?fit=fill&w=480&h=270" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.istockphoto.com/photos/green-leaf-with-dew-on-dark-nature-background-picture-id1050634172?k=6&m=1050634172&s=612x612&w=0&h=C6CWho9b4RDhCqvaivYOLV2LK6FzygYpAyLPBlF1i2c=" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--- Quote -->
+<div class="card" align="center">
+  <div class="card-header">
+    Quote
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote text-center">
+      <p class="mb-0">It is not so much for its beauty that the forest makes a claim upon men’s hearts, as for that subtle something, that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit.</p>
+      <p class="t">-Robert Louis Stevenson</p>
+    </blockquote>
+  </div>
+</div>
+
+<!--- Three Column Section -->
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://www.zenrooms.com/blog/wp-content/uploads/2021/02/Langub-Beach-Malapascua-Island-cebu-beaches.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Beach</h5>
+      <p class="card-text">A beach is a landform alongside a body of water which consists of loose particles. The particles composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles, etc., or biological sources, such as mollusc shells or coralline algae. Sediments settle in different densities and structures, depending on the local wave action and weather, creating different textures, colors and gradients or layers of material.</p>
+      <p class="card-text"><small class="text-muted">Best time for visit summers</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/background.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mountain</h5>
+      <p class="card-text">Mountain, landform that rises prominently above its surroundings, generally exhibiting steep slopes, a relatively confined summit area, and considerable local relief. Mountains generally are understood to be larger than hills, but the term has no standardized geological meaning. Very rarely do mountains occur individually. In most cases, they are found in elongated ranges or chains. When an array of such ranges is linked together, it constitutes a mountain belt. For a list of selected mountains of the world</p>
+      <p class="card-text"><small class="text-muted">Best time to visit Monsoon and Winters</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs2RF_We_t6211oc42pvZv5N_fT9Uh_0y2Ow&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">City</h5>
+      <p class="card-text">A city is a large human settlement.It can be defined as a permanent and densely settled place with administratively defined boundaries whose members work primarily on non-agricultural tasks.Cities generally have extensive systems for housing, transportation, sanitation, utilities, land use, production of goods, and communication.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji"> click here for fun</button>
+<div id="emoji" class="collapse">
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/panda.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/poo.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/unicorn.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/gif/chicken.gif">
+      </div>
+    </div>
+  </div>
+</div> 
+<br> 
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+  <div class="row padding">
+    <div class="col-md-6">
+      <h2>Our Goal</h2>
+      <p>The pandemic is a reminder that everything is connected. Our health, our economies, animal health and the natural environment are all interlinked.Tackling problems in siloes is no longer an option. We must create solutions that respect these interconnections, and we need those solutions fast.</p>
+      <p>Designing economic stimulus packages that ensure green and just recovery and increase investment in sustainable business models.</p>
+      <p>Tackling the direct environmental drivers of increased pandemic risk, including combating wildlife trafficking and halting the high-risk wildife trade, as well as eliminating deforestation and conversion from agricultural supply chains</p>
+      <br>
+      </div>
+    <div class="col-md-6">
+      <img src="https://thumbs.dreamstime.com/b/hand-holding-tree-save-nature-ecology-concept-human-hand-holding-tree-against-blurred-natural-background-save-nature-ecology-earth-192115055.jpg" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+  <div class="row text-center padding">
+    <div class="col-12">
+      <h2>Connect</h2>
+    </div>
+     <div class="col-12 social padding">
+       <a href="#"><i class="fab fa-facebook"></i></a>
+       <a href="#"><i class="fab fa-twitter"></i></a>
+       <a href="#"><i class="fab fa-google-plus-g"></i></a>
+       <a href="#"><i class="fab fa-instagram"></i></a>
+       <a href="#"><i class="fab fa-youtube"></i></a>
+     </div>
+  </div>
+  
+</div>
+
+<!--- Footer -->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-md-6">
+      <hr class="light">
+      <img src="https://www.graphicsprings.com/filestorage/stencils/398af33ebbf9ac1c6daa0093ade9b28e.png?width=150&height=150">
+      <p>079-2566480</p>
+      <p>email.myemail.com</p>
+      <p>100 street name</p>
+      <p>city,state,00000</p>
+    </div>
+   
+      <div class="col-md-6">
+        <hr class="light">
+        <h5>Our hours</h5>
+        <hr class="light">
+        <p>Monday: 9am-5pm</p>
+        <p>Wednesday: 10am-4pm</p>
+        <p>Sunday: 12am-2pm</p> 
+      </div> 
+    </div>
+    <div class="col-12">
+      <div class="j">
+      <hr class="light">
+      <h5>&copy; nature.com</h5>
+    </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
